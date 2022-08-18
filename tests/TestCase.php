@@ -3,7 +3,7 @@
 namespace MacsiDigital\Skeleton\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
-use MacsiDigital\Skeleton\Providers\SkeletonServiceProvider;
+use MacsiDigital\BladeHeroicons\BladeHeroiconsServiceProvider;
 
 class TestCase extends OrchestraTestCase
 {

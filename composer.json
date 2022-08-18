@@ -1,42 +1,39 @@
 {
-    "name": "macsidigital/:package_name",
-    "description": ":package_description",
+    "name": "macsidigital/blade-heroicons",
+    "description": "Blade Heroicons",
     "keywords": [
         "macsidigital",
-        ":package_name"
+        "blade-heroicons"
     ],
-    "homepage": "https://github.com/macsidigital/:package_name",
+    "homepage": "https://github.com/macsidigital/blade-heroicons",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Colin Hall",
+            "email": "colin@macsi.co.uk",
             "homepage": "https://macsidigital.co.uk",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.3"
+        "php": "^8.0"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.16",
-        "orchestra/testbench": "^5.0",
-        "phpunit/phpunit": "^9.0",
-        "psalm/plugin-laravel": "^1.4",
-        "vimeo/psalm": "^3.11"
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "orchestra/testbench": "^7.0",
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
-            "MacsiDigital\\Skeleton\\": "src"
+            "MacsiDigital\\BladeHeroicons\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MacsiDigital\\Skeleton\\Tests\\": "tests"
+            "MacsiDigital\\BladeHeroicons\\Tests\\": "tests"
         }
     },
     "scripts": {
-        "psalm": "vendor/bin/psalm",
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
         "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
@@ -47,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MacsiDigital\\Skeleton\\Providers\\SkeletonServiceProvider"
+                "MacsiDigital\\BladeHeroicons\\BladeHeroiconsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "MacsiDigital\\Skeleton\\Facades\\Package"
+                "BladeHeroicons": "MacsiDigital\\BladeHeroicons\\Facades\\Package"
             }
         }
     },

@@ -1,10 +1,10 @@
 <?php
 
-namespace MacsiDigital\Skeleton;
+namespace MacsiDigital\BladeHeroicons;
 
 class Package
 {
-    const VERSION = '0.0.1';
+    const VERSION = '1.0.0';
 
     public function version()
     {
