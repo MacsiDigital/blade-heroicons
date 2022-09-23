@@ -29,7 +29,7 @@ return [
 ## Usage
 
 ``` php
-<x-heroicons:solid.academy-cap class="h-4 w-4" />
+<x-heroicons:v1.solid.academy-cap class="h-4 w-4" />
 ```
 
 ## Changelog
